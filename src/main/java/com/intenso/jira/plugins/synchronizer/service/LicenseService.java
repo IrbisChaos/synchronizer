@@ -1,0 +1,12 @@
+// 
+// Decompiled by Procyon v0.5.30
+// 
+
+package com.intenso.jira.plugins.synchronizer.service;
+
+import com.atlassian.jira.util.SimpleErrorCollection;
+
+public interface LicenseService
+{
+    SimpleErrorCollection checkLicense();
+}
